@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/circle_bg"
+    tools:context=".HomeActivity">
+
+    <!--Logout button-->
+    <RelativeLayout
+        android:id="@+id/relLay2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:id="@+id/ForgotPass_Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/button_bg"
+            android:fontFamily="sans-serif"
+            android:onClick="logout"
+            android:text="Logout"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:layout_marginBottom="10dp"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_centerInParent="true">
+
+        <ImageView
+            android:id="@+id/ImageView_logo"
+            android:layout_width="160dp"
+            android:layout_height="150dp"
+            android:minHeight="0dp"
+            android:minWidth="0dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/slicon"
+            android:layout_centerInParent="false"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"/>
+
+
+        <RelativeLayout
+            android:id="@+id/RelLay1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ImageView_logo">
+
+            <Button
+                android:id="@+id/btnBloodTest"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_below="@+id/Linearlay1"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/button_bg1"
+                android:fontFamily="sans-serif-medium"
+                android:paddingLeft="65dp"
+                android:paddingRight="65dp"
+                android:text="Blood Test"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/btnUrineTest"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_below="@+id/btnBloodTest"
+                android:text="Urine Test"
+                android:background="@drawable/button_bg1"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:fontFamily="sans-serif-medium"
+                android:paddingRight="65dp"
+                android:paddingLeft="65dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                android:textSize="16sp"/>
+
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

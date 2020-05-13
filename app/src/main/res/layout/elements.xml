@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    app:cardCornerRadius="12dp"
+    android:layout_margin="15dp"
+    android:elevation="7dp"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical"
+        android:background="#FAF3F3">
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:fontFamily="sans-serif-medium"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_centerInParent="true"/>
+
+      <!--  <TextView
+            android:id="@+id/link_tv"
+            android:layout_below="@+id/date_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Link"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:fontFamily="sans-serif-light"
+            android:layout_marginTop="2dp"
+            android:layout_marginLeft="11dp"/> -->
+
+    <!--    <Button
+            android:id="@+id/download"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="Download"
+            android:background="@drawable/button_bg1"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif-medium"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="30dp"
+            android:textSize="16sp"
+            android:layout_marginRight="10dp"/> -->
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
+

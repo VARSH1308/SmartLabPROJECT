@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "296299723006",
+    "firebase_url": "https://smartlab-d7a66.firebaseio.com",
+    "project_id": "smartlab-d7a66",
+    "storage_bucket": "smartlab-d7a66.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:296299723006:android:45a9a1b37750c1da854daf",
+        "android_client_info": {
+          "package_name": "com.example.smartlab"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "296299723006-75u01ee1mevi4umq3ifvo6tu8787ch7t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.smartlab",
+            "certificate_hash": "03fbba4e6c411417d73aa69cec13e95a3d70978b"
+          }
+        },
+        {
+          "client_id": "296299723006-q7c8fnvjaic5ccup6ts0kfg2ctijsm1c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMMOfNKRDIiSpoPBvd3nZK-yyR-cwM4uE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "296299723006-q7c8fnvjaic5ccup6ts0kfg2ctijsm1c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
